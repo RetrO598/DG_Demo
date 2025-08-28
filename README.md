@@ -15,14 +15,14 @@ cmake --build build
 
 ## Buckley non-convex flux problem
 
-![alt text](Doc/result.png){:height="50%" width="50%"}
+![alt text](Doc/result.png)
 
 ## Sod shock tube problem
 
-![alt text](Doc/p_result.png){:height="50%" width="50%"}
-![alt text](Doc/rho_result.png){:height="50%" width="50%"}
-![alt text](Doc/u_result.png){:height="50%" width="50%"}
+![alt text](Doc/p_result.png)
+![alt text](Doc/rho_result.png)
+![alt text](Doc/u_result.png)
 
 ## Two-dimensional Riemann problem
 
-![alt text](Doc/rho.png){:height="50%" width="50%"}
+![alt text](Doc/rho.png)
