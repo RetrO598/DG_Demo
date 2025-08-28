@@ -82,8 +82,11 @@ void init(std::vector<double> &vec, const double &xleft, const double &xright,
 
 void plot2D(const std::vector<double> &x, const std::vector<double> &y,
             const std::string &name) {
-  plt::figure_size(1200, 780);
-  plt::plot(x, y);
+  plt::figure_size(900, 700);
+  plt::xlim(-1.0, 1.0);
+  plt::ylim(-0.1, 1.1);
+  plt::plot(x, y, "b-");
+  plt::xlabel("x");
   plt::save(name, 500);
 }
 
